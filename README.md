@@ -98,14 +98,14 @@ The phone number of the user
 **(response) => void: Required**
 This is called when a transaction is successfully. It returns an object as a response with the transaction details.
 
-See the [success response](#successResponse) below.
+Check the [Fluidcoins docs Docs](https://developers.fluidcoins.com) for response object
 
 ### <a name="onError"></a> `onError`
 
 **(response) => void: Optional**
 This is called when a transaction fails. It returns a response with error type
 
-See the [error response](#errorResponse) below.
+Check the [Fluidcoins docs Docs](https://developers.fluidcoins.com) for error object
 
 ### <a name="onClose"></a> `onLoad`
 
