@@ -1,4 +1,4 @@
-# fluidcoins-react
+# fluidcoins-pay-react
 
 > Official React package for Fluidcoins pay
 
@@ -18,7 +18,7 @@ npm install fluidcoins-react
 
 ```js
 import React from 'react'
-import { useFluidcoins } from 'fluidcoins-react'
+import { useFluidcoins } from 'fluidcoins-pay-react'
 // ...
 
 export default function App() {
@@ -98,14 +98,14 @@ The phone number of the user
 **(response) => void: Required**
 This is called when a transaction is successfully. It returns an object as a response with the transaction details.
 
-Check the [Fluidcoins docs Docs](https://developers.fluidcoins.com) for response object
+Check the [Fluidcoins Docs](https://developers.fluidcoins.com) for response object
 
 ### <a name="onError"></a> `onError`
 
 **(response) => void: Optional**
 This is called when a transaction fails. It returns a response with error type
 
-Check the [Fluidcoins docs Docs](https://developers.fluidcoins.com) for error object
+Check the [Fluidcoins Docs](https://developers.fluidcoins.com) for error object
 
 ### <a name="onClose"></a> `onLoad`
 

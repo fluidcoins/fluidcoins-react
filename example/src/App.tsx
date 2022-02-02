@@ -1,5 +1,5 @@
 import React from 'react'
-import { useFluidcoins } from 'fluidcoins-react'
+import { useFluidcoins } from 'fluidcoins-pay-react'
 
 interface SuccessType {
   reference: string
