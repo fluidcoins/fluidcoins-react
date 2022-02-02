@@ -16,8 +16,7 @@ export default function App() {
   const config = {
     email,
     amount: '100000',
-    // key: 'pspk_test_m7pbk9fbjaofi92shcgxq8is4pfgxl0t0bq3g3bmrp7iq',
-    key: 'pk_test_a934727e5be545f1bb27bd367750b5b5',
+    key: 'pspk_test_m7pbk9fbjaofi92shcgxq8is4pfgxl0t0bq3g3bmrp7iq',
     metadata: {
       moniker: 'ezemmuo'
     },
