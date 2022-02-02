@@ -1,16 +1,25 @@
 {
-  "name": "fluidcoins-react",
-  "version": "1.0.0",
-  "description": "Official React package for Fluidcoins pay",
+  "name": "fluidcoins-pay-react",
+  "version": "0.0.1",
+  "description": "Official React package for Fluidcoins",
   "author": "kamsy",
   "license": "MIT",
   "repository": "kamsy/fluidcoins-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "source": "src/index.tsx",
+  "source": "src/index.ts",
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "financial",
+    "data",
+    "API",
+    "payments",
+    "fluidcoins",
+    "fluidcoins-react",
+    "crypto"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
