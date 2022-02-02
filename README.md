@@ -11,7 +11,7 @@ Fluidcoins - The easiest way for African businesses to accept cryptocurrencies o
 ## Installation
 
 ```sh
-npm install fluidcoins-react
+npm install fluidcoins-pay-react
 ```
 
 ## Usage
